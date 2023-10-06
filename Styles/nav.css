@@ -1,0 +1,125 @@
+
+/* common Nav styles */
+.Nav-Wrapper {
+    height: 190px;
+    background-color:#11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 80px 100px;
+}
+
+/* Left column styles */
+.Nav-Wrapper > .left-column{
+    display: flex;
+    align-items: center;
+}
+
+.Nav-Wrapper > .left-column > .icon{
+    margin-right: 15px;
+}
+
+.Nav-Wrapper > .left-column > .icon i {
+    font-size: 2em;
+}
+
+.Nav-Wrapper > .left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+
+.Nav-Wrapper > .left-column > .contact-hours-wrapper > .time{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
+.link-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+/* centre column styles */
+.center-coloumn  > .banner-logo img {
+    width: 220px;
+   height: 100%;
+}
+
+.Nav-Wrapper > .center-coloumn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.center-coloumn  > .banner-logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.link-wrapper > .nav-link{
+    width: 70px;
+    text-align: center;
+}
+
+.link-wrapper >  .nav-link a {
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed" , sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link-wrapper >  .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+
+/* right column styles */
+
+.Nav-Wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.right-column > .Address-wrapper{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.Nav-Wrapper > .right-column > .map-icon{
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+.right-column > .Address-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.right-column > .Address-wrapper a:hover {
+    color: #cea135;
+}
+
+.Nav-Wrapper > .right-column > .map-icon a {
+    color: #cbcbcb;
+    transition: 0.5s;
+
+}
+
+.Nav-Wrapper > .right-column > .map-icon a:hover {
+    color: #cea135;
+}

@@ -1,0 +1,66 @@
+/* footer styles */
+.footer-wrapper{
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed" , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 428px;
+    margin-top: -4px;
+}
+
+.footer-wrapper > .social-links {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-wrapper > .img-wrapper img {
+    width: 200px;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.footer-wrapper > .address-wrapper span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper > .address-wrapper > .footer-hours-wrapper  {
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.footer-wrapper > .link-wrapper {
+    margin-top: 22px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.footer-wrapper > .social-links {
+    margin-top: 21px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper > .social-links a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer-wrapper > .social-links a:hover {
+    color: #cea135;
+}
+
+.footer-wrapper > .copywrite-wrapper{
+    margin-bottom: 42px;
+    font-size: 0.8em;
+    color: #858585;
+}
+
